@@ -1,0 +1,68 @@
+# ------------------------------
+# Python & Environment
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# Virtual environment
+yolo_env/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ------------------------------
+# YOLO / ML Training Outputs
+# ------------------------------
+runs/
+results/
+weights/
+*.pt
+*.onnx
+
+# ------------------------------
+# Dataset (Images + Labels)
+# Avoid pushing real dataset to Git
+# ------------------------------
+datasets/images/
+datasets/labels/
+
+# Optional: keep only dataset.yaml
+!training/dataset.yaml
+
+# ------------------------------
+# Videos
+# ------------------------------
+*.mp4
+*.avi
+*.mov
+videos/
+testing/videos/
+training/videos/
+
+# ------------------------------
+# Logs
+# ------------------------------
+*.log
+*.txt
+logs/
+train.log
+
+# ------------------------------
+# OS files
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# IDE / Editor
+# ------------------------------
+.vscode/
+.idea/
+*.code-workspace
+
